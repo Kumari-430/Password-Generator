@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-2-5d-computer-technology-blockchain-picture-image_930343.jpg");
+    color: white;
+    font-style: strong;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background: rgba(2, 4, 42, 0.8);
+    align-items: center;
+    box-shadow: 0 5px 30px rgba(12, 128, 126, 0.2);
+    width: 350px;
+    padding: 20px
+}
+
+h2 {
+
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+
+.result-container {
+    background-color: rgba(48, 8, 54, 0.634);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+}
+
+.result-container #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    top: 5px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgba(52, 209, 172, 0.285);
+}
+
+.btn-large {
+    width: 100%;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+
+}
+
